@@ -1,0 +1,11 @@
+{
+    "sellGearOnFlea": true,
+    "allGearAvailableOnFlea": true,
+    "botsUseGear": true,
+    "traderEnabled": true,
+    "pmcsUseFactionedGearOnly": true,
+    "pmcsGearWeightMultiplier": 1.337,
+    "botsUseClothing": true,
+    "unlockOthersFactionsClothing": true,
+    "sellClothingOnRagman": false
+}

@@ -1,0 +1,150 @@
+{
+  "item_equipment_rig_stich_profi_s3d":{
+    "Name": "Stich Profi Plate Carrier V2 (SURPAT 3D)",
+    "ShortName": "SP PC V2",
+    "Description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. SURPAT 3D version."
+  },
+  "item_equipment_rig_stich_profi_ss":{
+    "Name": "Stich Profi Plate Carrier V2 (SURPAT Savanna)",
+    "ShortName": "SP PC V2",
+    "Description": "An improved lightweight version of the standard plate carrier manufactured by Stich Profi. SURPAT Savanna version."
+  },
+  "item_equipment_rig_forts_emr":{
+    "Name": "FORT Gladiator-S plate carrier (Lightweight, EMR)",
+    "ShortName": "Gladiator-S",
+    "Description": "A specialized body armor developed for the FSBs Special Purpose Center, featuring high functionality and modularity. EMR version."
+  },
+  "item_equipment_rig_forts_fg":{
+    "Name": "FORT Gladiator-S plate carrier (Lightweight, A-TACS FG)",
+    "ShortName": "Gladiator-S",
+    "Description": "A specialized body armor developed for the FSBs Special Purpose Center, featuring high functionality and modularity. A-TACS FG version."
+  },
+  "item_equipment_armor_arscpc_mc":{
+    "Name": "Ars Arma CPC MOD.1 plate carrier (MultiCam)",
+    "ShortName": "CPC MOD.1",
+    "Description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma. In MultiCam pattern."
+  },
+  "item_equipment_armor_arscpc_fgix":{
+    "Name": "Ars Arma CPC MOD.1 plate carrier (A-TACS IX)",
+    "ShortName": "CPC MOD.1",
+    "Description": "The first generation of the modified CPC plate carrier originally designed by Crye Precision and adapted by Ars Arma for use by special forces of the Russian Federation. This modular body armor is based on a polymer harness that fits the thorax, which avoids the plate carrier backlash during active movement and also contributes to a more even distribution of weight. Made in the assault configuration of pouches. Manufactured by Ars Arma. In ATACS FG IX pattern."
+  },
+  "item_equipment_rig_tv110_emr":{
+    "Name": "WARTECH TV-110 plate carrier (EMR)",
+    "ShortName": "TV-110",
+    "Description": "The LBS TV-110 plate carrier equipped with a set of pouches. Manufactured by WARTECH. In EMR pattern."
+  },
+  "item_equipment_rig_tv110_fg":{
+    "Name": "WARTECH TV-110 plate carrier (A-TACS FG)",
+    "ShortName": "TV-110",
+    "Description": "The LBS TV-110 plate carrier equipped with a set of pouches. Manufactured by WARTECH. In A-TACS FG pattern."
+  },
+  "item_equipment_rig_tv110_mc":{
+    "Name": "WARTECH TV-110 plate carrier (MultiCam)",
+    "ShortName": "TV-110",
+    "Description": "The LBS TV-110 plate carrier equipped with a set of pouches. Manufactured by WARTECH. In MultiCam pattern."
+  },
+  "item_equipment_head_tagillacap_emr":{
+    "Name": "Backwards Hat (EMR)",
+    "ShortName": "BW Cap",
+    "Description": "Just a cap that you can wear backwards! In EMR."
+  },
+  "item_equipment_head_tagillacap_fg":{
+    "Name": "Backwards Hat (A-TACS FG)",
+    "ShortName": "BW Cap",
+    "Description": "Just a cap that you can wear backwards! In A-TACS FG."
+  },
+  "item_equipment_head_bear_mc":{
+    "Name": "BEAR baseball cap (MultiCam)",
+    "ShortName": "BEAR",
+    "Description": "A tactical BEAR PMC baseball cap. MultiCam version."
+  },
+  "item_equipment_head_bear_fgix":{
+    "Name": "BEAR baseball cap (A-TACS IX)",
+    "ShortName": "BEAR",
+    "Description": "A tactical BEAR PMC baseball cap. A-TACS IX version."
+  },
+  "item_equipment_backpack_MC_2day":{
+    "Name": "Mystery Ranch 2 Day Assault Pack (MultiCam)",
+    "ShortName": "2 Day Assault",
+    "Description": "This Mystery Ranch backpack is designed for short missions of up to two days. Its compact size is offset by excellent ergonomics. External straps provide convenient attachment points for tools and gear you might need on the go. In MultiCam pattern."
+  },
+  "item_equipment_backpack_EMR_2day":{
+    "Name": "Mystery Ranch 2 Day Assault Pack (EMR)",
+    "ShortName": "2 Day Assault",
+    "Description": "This Mystery Ranch backpack is designed for short missions of up to two days. Its compact size is offset by excellent ergonomics. External straps provide convenient attachment points for tools and gear you might need on the go. In EMR pattern."
+  },
+  "item_equipment_backpack_wartech_s3d":{
+    "Name": "WARTECH Berkut BB-102 backpack (SURPAT 3D)",
+    "ShortName": "Berkut",
+    "Description": "A tactical backpack with front loading capabilities. Suitable for use by military and security forces, or for military tactical games. Manufactured in WARTECH. SURPAT 3D pattern."
+  },
+  "item_equipment_backpack_wartech_ss":{
+    "Name": "WARTECH Berkut BB-102 backpack (SURPAT Savanna)",
+    "ShortName": "Berkut",
+    "Description": "A tactical backpack with front loading capabilities. Suitable for use by military and security forces, or for military tactical games. Manufactured in WARTECH. SURPAT Savanna pattern."
+  },
+  "item_equipment_backpack_wartech_ix":{
+    "Name": "WARTECH Berkut BB-102 backpack (A-TACS IX)",
+    "ShortName": "Berkut",
+    "Description": "A tactical backpack with front loading capabilities. Suitable for use by military and security forces, or for military tactical games. Manufactured in WARTECH. A-TACS IX pattern."
+  },
+  "item_equipment_backpack_baselardwild_emr":{
+    "Name": "BEAR 3-Day Assault Pack (EMR)",
+    "ShortName": "BEAR 3-Day",
+    "Description": "A 3-day assault pack with a MOLLE attachment system, issued to some BEAR operators before deployment to the Norvinsk region. In EMR Pattern."
+  },
+  "item_equipment_backpack_baselardwild_fg":{
+    "Name": "BEAR 3-Day Assault Pack (A-TACS FG)",
+    "ShortName": "BEAR 3-Day",
+    "Description": "A 3-day assault pack with a MOLLE attachment system, issued to some BEAR operators before deployment to the Norvinsk region. In A-TACS FG Pattern."
+  },
+  "item_equipment_backpack_baselardwild_mc":{
+    "Name": "BEAR 3-Day Assault Pack (A-TACS FG)",
+    "ShortName": "BEAR 3-Day",
+    "Description": "A 3-day assault pack with a MOLLE attachment system, issued to some BEAR operators before deployment to the Norvinsk region. In MultiCam Pattern."
+  },
+  "item_equipment_helmet_LSHZ_snake":{
+    "Name": "LShZ lightweight helmet (Spray Pattern)",
+    "ShortName": "LShZ",
+    "Description": "A lightweight protective helmet made in Russia. Basically a cheap copy of Ops-Core FAST helmet with lower characteristics. Spray painted with woodland pattern."
+  },
+  "item_equipment_helmet_LSHZ_mc":{
+    "Name": "LShZ lightweight helmet (MultiCam)",
+    "ShortName": "LShZ",
+    "Description": "A lightweight protective helmet made in Russia. Basically a cheap copy of Ops-Core FAST helmet with lower characteristics. In MultiCam pattern."
+  },
+  "item_equipment_helmet_tw_exfil_emr":{
+    "Name": "Team Wendy EXFIL Ballistic Helmet (EMR)",
+    "ShortName": "EXFIL",
+    "Description":"One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. EMR version."
+  },
+  "item_equipment_helmet_tw_exfil_fg":{
+    "Name": "Team Wendy EXFIL Ballistic Helmet (A-TACS FG)",
+    "ShortName": "EXFIL",
+    "Description":"One of the most recent tactical ballistic helmets with extensive customization capabilities. The EXFIL LTP (Lightweight, Tactical, Polymer) bump helmet provides impact protection for maritime environments and a stable, comfortable platform for mounting night vision and other accessories. The built-in NVG shroud utilizes an integrated Wilcox machined aluminum shroud insert. A-TACS FG version."
+  },
+  "item_equipment_helmet_tor_2_fg":{
+    "Name":"NPP KlASS Tor-2 helmet (A-TACS FG)",
+    "ShortName":"Tor-2",
+    "Description":"NPP KlASS Tor-2 is an assault protective helmet with a removable bullet-resistant visor and an integrated system for installing additional equipment (NVG, headsets, tactical lights, cameras, IR strobe lights, etc.). In A-TACS FG pattern."
+  },
+  "item_equipment_helmet_tor_2_mc":{
+    "Name":"NPP KlASS Tor-2 helmet (MultiCam)",
+    "ShortName":"Tor-2",
+    "Description":"NPP KlASS Tor-2 is an assault protective helmet with a removable bullet-resistant visor and an integrated system for installing additional equipment (NVG, headsets, tactical lights, cameras, IR strobe lights, etc.). In MultiCam pattern."
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}

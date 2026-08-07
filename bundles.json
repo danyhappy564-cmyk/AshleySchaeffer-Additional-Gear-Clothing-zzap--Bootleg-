@@ -1,0 +1,1001 @@
+{
+    "manifest": [
+        {
+            "key": "Tops/BEAR_Lynx_EMR.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Lynx_EMR.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Lynx_MC.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Lynx_MC.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Lynx_FG.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Lynx_FG.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Gorka5_MC.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Gorka5_MC.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Gorka5_S3D.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Gorka5_S3D.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_SPN_IX.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_SPN_IX.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_SPN_S3D.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_SPN_S3D.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_SPN_SS.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_SPN_SS.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_SPN_MC.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_SPN_MC.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+                
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Parka_IX.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Parka_IX.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Parka_EMR.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Parka_EMR.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Parka_MC.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Parka_MC.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Winter_2_FG.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Winter_2_FG.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+                
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Winter_2_EMRA.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Winter_2_EMRA.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+                
+            ]
+        },
+        {
+            "key": "Tops/BEAR_Winter_2_EMR.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_BEAR_Winter_2_EMR.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+                
+            ]
+        },
+        
+        
+        {
+            "key": "Tops/USEC_G4_UCON.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_G4_UCON.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_G4_MM14.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_G4_MM14.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Winter2_OD.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Winter2_OD.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Winter2_Grey.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Winter2_Grey.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Winter2_MM14.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Winter2_MM14.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_DeadlyFrog_Black.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_DeadlyFrogBlack.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_DeadlyFrog_Coyote.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_DeadlyFrogCoyote.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Mission_MT.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Mission_MT.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Mission_MM14.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Mission_MM14.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Winter_MC.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Winter_MC.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/hands_usec_winterset/hands_usec_winterset.skin.bundle",
+                "assets/content/hands/usec/usec_watch_garmintactix.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Winter_MT.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Winter_MT.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/hands_usec_winterset/hands_usec_winterset.skin.bundle",
+                "assets/content/hands/usec/usec_watch_garmintactix.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_PCU_UCON.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_PCU_UCON.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_PCU_MT.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_PCU_MT.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+        {
+            "key": "Tops/USEC_Aggressor_Black.bundle",
+            "dependencyKeys": [
+                    "shaders",
+                    "cubemaps",
+                    "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Hands/Hands_USEC_Aggressor_Black.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/content/hands/usec/materials/watch_usec_textures",
+                "assets/content/hands/bear/bear_hands_watch_texture.bundles",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/content/hands/bear/bear_watch.bundle"
+            ]
+        },
+
+        
+         
+        {
+            "key": "Bottoms/BEAR_Instructor_EMR.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Instructor_FG.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Instructor_SS.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Instructor_MC.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Instructor_S3D.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Gladiator_S3D.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Gladiator_SS.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Gladiator_FG.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Slavianka_IX.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Slavianka_MC.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/BEAR_Slavianka_EMR.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_SpecOps_MT.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_SpecOps_MC.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_SpecOps_BL.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Birdeye_UCON.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Birdeye_MM14.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Birdeye_MT.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Winter_UCON.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Winter_BL.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Legionnaire_BL.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_Legionnaire_MM14.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_G4_UCON.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+        {
+            "key": "Bottoms/Usec_G4_MM14.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/content/characters/character/skeleton.bundle"
+            ]
+        },
+
+
+        {
+            "key": "Chestrigs/FORT_S_EMR.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_gladiator_s_mltcm/item_equipment_armor_gladiator_s_mltcm.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/FORT_S_FG.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_gladiator_s_mltcm/item_equipment_armor_gladiator_s_mltcm.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/S3D_StichProfi.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_stich_profi_plate_carrier_v2/item_equipment_rig_stich_marpat_bp2.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/SS_StichProfi.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_stich_profi_plate_carrier_v2/item_equipment_rig_stich_profi_plate_carrier_v2.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/ARSCPC_MC.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_arscpc/cr_arscpc.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/ARSCPC_FGIX.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_arscpc/cr_arscpc.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/EMR_tv110.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_tv110/item_equipment_rig_tv110.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/FG_tv110.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_tv110/item_equipment_rig_tv110.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Chestrigs/MC_tv110.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/rig_tv110/item_equipment_rig_tv110.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        
+        {
+            "key": "Headwear/BW_CapEMR.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/BW_CapFG.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/FW_CapMC.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/FW_CapFGIX.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+
+
+        {
+			"key": "Backpacks/MC_2Day.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/EMR_2Day.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/S3D_Berkut.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/SS_Berkut.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/IX_Berkut.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/EMR_ScavBackpack.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/FG_ScavBackpack.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+			"key": "Backpacks/MC_ScavBackpack.bundle",
+			"dependencyKeys": [
+				"shaders",
+				"cubemaps",
+				"assets/commonassets/physics/physicsmaterials.bundle",
+				"assets/content/characters/character/skeleton.bundle"
+			]
+		},
+        {
+            "key": "Headwear/LShz_SnakeSpray.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/helmet_lshz/item_equipment_helmet_lshz.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/LShz_MC.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/helmet_lshz/item_equipment_helmet_lshz.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/TW_Exfil_EMR.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/item_equipment_helmet_team_wendy_exfil_gen2_multicam_bp03/item_equipment_helmet_team_wendy_exfil_multicam_bp03.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "Headwear/TW_Exfil_Rails/OD_Rails.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/TW_Exfil_Rails/OD_Rails.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/helmet_team_wendy_exfil.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/TW_Exfil_FG.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/item_equipment_helmet_team_wendy_exfil_gen2_multicam_bp03/item_equipment_helmet_team_wendy_exfil_multicam_bp03.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "Headwear/TW_Exfil_Rails/FG_Rails.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/TW_Exfil_Rails/FG_Rails.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/helmet_team_wendy_exfil.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/Tor_2_FG.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/helmet_tor_2/item_equipment_helmet_tor_2.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Headwear/Tor_2_MC.bundle",
+            "dependencyKeys": [
+                "assets/content/items/equipment/helmet_tor_2/item_equipment_helmet_tor_2.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        }
+        
+
+    ]
+}    

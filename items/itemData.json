@@ -1,0 +1,1134 @@
+{
+ "Tops":{
+    "top_bear_lynx_emr": {
+      "name": "top_bear_lynx_emr",
+      "displayName": "BEAR Lynx (EMR)",
+      "id": "6a32e9ee41c4c064d045b220",
+      "SuiteId": "6a32e9ee41c4c064d045b221",
+      "BundlePath": "Tops/BEAR_Lynx_EMR.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Lynx_EMR.bundle",
+      "HandsId": "6a32e9ee41c4c064d045b222",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_lynx_mc": {
+      "name": "top_bear_lynx_mc",
+      "displayName": "BEAR Lynx (MultiCam)",
+      "id": "6a32eae8568b1f6579a9fdd0",
+      "SuiteId": "6a32eae8568b1f6579a9fdd1",
+      "BundlePath": "Tops/BEAR_Lynx_MC.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Lynx_MC.bundle",
+      "HandsId": "6a32eae8568b1f6579a9fdd2",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_lynx_fg": {
+      "name": "top_bear_lynx_fg",
+      "displayName": "BEAR Lynx (ATACS FG)",
+      "id": "6a32eb4e55cc43e00c7609f4",
+      "SuiteId": "6a32eb4e55cc43e00c7609f5",
+      "BundlePath": "Tops/BEAR_Lynx_FG.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Lynx_FG.bundle",
+      "HandsId": "6a32eb4e55cc43e00c7609f6",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_gorka5_mc": {
+      "name": "top_bear_gorka5_mc",
+      "displayName": "BEAR Gorka 5 (MultiCam)",
+      "id": "6a34a8aef2a62652705b84b1",
+      "SuiteId": "6a34a8aef2a62652705b84b2",
+      "BundlePath": "Tops/BEAR_Gorka5_MC.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Gorka5_MC.bundle",
+      "HandsId": "6a34a8aef2a62652705b84b3",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_gorka5_s3d": {
+      "name": "top_bear_gorka5_s3d",
+      "displayName": "BEAR Gorka 5 (SURPAT 3D)",
+      "id": "6a34a9293b232e0e99558f01",
+      "SuiteId": "6a34a9293b232e0e99558f02",
+      "BundlePath": "Tops/BEAR_Gorka5_S3D.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Gorka5_S3D.bundle",
+      "HandsId": "6a34a9293b232e0e99558f03",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_spn_fgix": {
+      "name": "top_bear_spn_fgix",
+      "displayName": "BEAR SPN (ATACS IX)",
+      "id": "6a34b31782bf005c7652d2c1",
+      "SuiteId": "6a34b31782bf005c7652d2c2",
+      "BundlePath": "Tops/BEAR_SPN_IX.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_SPN_IX.bundle",
+      "HandsId": "6a34b31782bf005c7652d2c3",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_spn_s3d": {
+      "name": "top_bear_spn_s3d",
+      "displayName": "BEAR SPN (SURPAT 3D)",
+      "id": "6a34b31782bf005c7652d2c4",
+      "SuiteId": "6a34b31782bf005c7652d2c5",
+      "BundlePath": "Tops/BEAR_SPN_S3D.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_SPN_S3D.bundle",
+      "HandsId": "6a34b31782bf005c7652d2c6",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_spn_ss": {
+      "name": "top_bear_spn_ss",
+      "displayName": "BEAR SPN (SURPAT Savanna)",
+      "id": "6a34b31782bf005c7652d2c7",
+      "SuiteId": "6a34b31782bf005c7652d2c8",
+      "BundlePath": "Tops/BEAR_SPN_SS.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_SPN_SS.bundle",
+      "HandsId": "6a34b31782bf005c7652d2c9",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_spn_mc": {
+      "name": "top_bear_spn_mc",
+      "displayName": "BEAR SPN (MultiCam)",
+      "id": "6a34b31782bf005c7652d2d1",
+      "SuiteId": "6a34b31782bf005c7652d2d2",
+      "BundlePath": "Tops/BEAR_SPN_MC.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_SPN_MC.bundle",
+      "HandsId": "6a34b31782bf005c7652d2d3",
+      "HandsBaseID": "5d1f5a9786f7743014162046",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_lt_ix": {
+      "name": "top_bear_lt_ix",
+      "displayName": "BEAR Combat Parka (ATACS IX)",
+      "id": "6a35986df28c15022297f901",
+      "SuiteId": "6a35986df28c15022297f902",
+      "BundlePath": "Tops/BEAR_Parka_IX.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Parka_IX.bundle",
+      "HandsId": "6a35986df28c15022297f903",
+      "HandsBaseID": "67ac82b05f7251f49d0e9b11",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_lt_emr": {
+      "name": "top_bear_lt_emr",
+      "displayName": "BEAR Combat Parka (EMR)",
+      "id": "6a35986df28c15022297f904",
+      "SuiteId": "6a35986df28c15022297f905",
+      "BundlePath": "Tops/BEAR_Parka_EMR.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Parka_EMR.bundle",
+      "HandsId": "6a35986df28c15022297f906",
+      "HandsBaseID": "67ac82b05f7251f49d0e9b11",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_lt_mc": {
+      "name": "top_bear_lt_mc",
+      "displayName": "BEAR Combat Parka (MultiCam)",
+      "id": "6a35986df28c15022297f907",
+      "SuiteId": "6a35986df28c15022297f908",
+      "BundlePath": "Tops/BEAR_Parka_MC.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Parka_MC.bundle",
+      "HandsId": "6a35986df28c15022297f909",
+      "HandsBaseID": "67ac82b05f7251f49d0e9b11",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_winter_2_fg": {
+      "name": "top_bear_winter_2_fg",
+      "displayName": "BEAR Arktika (ATACS FG)",
+      "id": "6a5d8db3787e70f8fbaffc80",
+      "SuiteId": "6a5d8db3787e70f8fbaffc81",
+      "BundlePath": "Tops/BEAR_Winter_2_FG.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Winter_2_FG.bundle",
+      "HandsId": "6a5d8db3787e70f8fbaffc82",
+      "HandsBaseID": "5d1f5aca86f7744bce0ee9f1",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_winter_2_emra": {
+      "name": "top_bear_winter_2_emra",
+      "displayName": "BEAR Arktika (EMR Autumn)",
+      "id": "6a5d8db3787e70f8fbaffc83",
+      "SuiteId": "6a5d8db3787e70f8fbaffc84",
+      "BundlePath": "Tops/BEAR_Winter_2_EMRA.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Winter_2_EMRA.bundle",
+      "HandsId": "6a5d8db3787e70f8fbaffc85",
+      "HandsBaseID": "5d1f5aca86f7744bce0ee9f1",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_bear_winter_2_emr": {
+      "name": "top_bear_winter_2_emr",
+      "displayName": "BEAR Arktika (EMR)",
+      "id": "6a5d8db3787e70f8fbaffc86",
+      "SuiteId": "6a5d8db3787e70f8fbaffc87",
+      "BundlePath": "Tops/BEAR_Winter_2_EMR.bundle",
+      "HandsBundlePath": "Hands/Hands_BEAR_Winter_2_EMR.bundle",
+      "HandsId": "6a5d8db3787e70f8fbaffc88",
+      "HandsBaseID": "5d1f5aca86f7744bce0ee9f1",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "top_usec_g4_ucon": {
+      "name": "top_usec_g4_ucon",
+      "displayName": "USEC Gen 4 (ATACS U|CON)",
+      "id": "6a35986df28c15022297f910",
+      "SuiteId": "6a35986df28c15022297f911",
+      "BundlePath": "Tops/USEC_G4_UCON.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_G4_UCON.bundle",
+      "HandsId": "6a35986df28c15022297f912",
+      "HandsBaseID": "67ac82b05f7251f49d0e9b11",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_g4_mm14": {
+      "name": "top_usec_g4_mm14",
+      "displayName": "USEC Gen 4 (MM14)",
+      "id": "6a35986df28c15022297f913",
+      "SuiteId": "6a35986df28c15022297f914",
+      "BundlePath": "Tops/USEC_G4_MM14.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_G4_MM14.bundle",
+      "HandsId": "6a35986df28c15022297f915",
+      "HandsBaseID": "67ac82b05f7251f49d0e9b11",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_winter2_od": {
+      "name": "top_usec_winter2_od",
+      "displayName": "USEC Fahrenheit (Olive)",
+      "id": "6a45e894c332f03dd63b3740",
+      "SuiteId": "6a45e894c332f03dd63b3741",
+      "BundlePath": "Tops/USEC_Winter2_OD.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Winter2_OD.bundle",
+      "HandsId": "6a45e894c332f03dd63b3742",
+      "HandsBaseID": "5d1f5b5386f7744bcc048757",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_winter2_mm14": {
+      "name": "top_usec_winter2_mm14",
+      "displayName": "USEC Fahrenheit (MM14 Winter)",
+      "id": "6a45e894c332f03dd63b3743",
+      "SuiteId": "6a45e894c332f03dd63b3744",
+      "BundlePath": "Tops/USEC_Winter2_MM14.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Winter2_MM14.bundle",
+      "HandsId": "6a45e894c332f03dd63b3745",
+      "HandsBaseID": "5d1f5b5386f7744bcc048757",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_winter2_grey": {
+      "name": "top_usec_winter2_grey",
+      "displayName": "USEC Fahrenheit (Grey)",
+      "id": "6a45e894c332f03dd63b3746",
+      "SuiteId": "6a45e894c332f03dd63b3747",
+      "BundlePath": "Tops/USEC_Winter2_Grey.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Winter2_Grey.bundle",
+      "HandsId": "6a45e894c332f03dd63b3748",
+      "HandsBaseID": "5d1f5b5386f7744bcc048757",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_deadly_frog_black": {
+      "name": "top_usec_deadly_frog_black",
+      "displayName": "USEC Deadly Frog (Black)",
+      "id": "6a4bf9f5bcf94e8d57768580",
+      "SuiteId": "6a4bf9f5bcf94e8d57768581",
+      "BundlePath": "Tops/USEC_DeadlyFrog_Black.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_DeadlyFrogBlack.bundle",
+      "HandsId": "6a4bf9f5bcf94e8d57768582",
+      "HandsBaseID": "675071099170ae7dd00d4216",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_deadly_frog_coyote": {
+      "name": "top_usec_deadly_frog_coyote",
+      "displayName": "USEC Deadly Frog (Coyote)",
+      "id": "6a4bf9f5bcf94e8d57768710",
+      "SuiteId": "6a4bf9f5bcf94e8d57768711",
+      "BundlePath": "Tops/USEC_DeadlyFrog_Coyote.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_DeadlyFrogCoyote.bundle",
+      "HandsId": "6a4bf9f5bcf94e8d57768712",
+      "HandsBaseID": "675071099170ae7dd00d4216",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_mission_mt": {
+      "name": "top_usec_mission_mt",
+      "displayName": "USEC Mission (Multitarn)",
+      "id": "6a526bb0472efeea96e59450",
+      "SuiteId": "6a526bb0472efeea96e59451",
+      "BundlePath": "Tops/USEC_Mission_MT.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Mission_MT.bundle",
+      "HandsId": "6a526bb0472efeea96e59452",
+      "HandsBaseID": "6393082c1c8f182ad90c8961",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_mission_mm14": {
+      "name": "top_usec_mission_mm14",
+      "displayName": "USEC Mission (MM14)",
+      "id": "6a526c4af76f4fb37340d280",
+      "SuiteId": "6a526c4af76f4fb37340d281",
+      "BundlePath": "Tops/USEC_Mission_MM14.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Mission_MM14.bundle",
+      "HandsId": "6a526c4af76f4fb37340d282",
+      "HandsBaseID": "6393082c1c8f182ad90c8961",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_winter_mc": {
+      "name": "top_usec_winter_mc",
+      "displayName": "USEC Winter (MultiCam)",
+      "id": "6a5436eecf4e55724d36ee10",
+      "SuiteId": "6a5436eecf4e55724d36ee11",
+      "BundlePath": "Tops/USEC_Winter_MC.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Winter_MC.bundle",
+      "HandsId": "6a5436eecf4e55724d36ee12",
+      "HandsBaseID": "675ff2a7e3ee8ffb7e042465",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_winter_mt": {
+      "name": "top_usec_winter_mt",
+      "displayName": "USEC Winter (Multitarn)",
+      "id": "6a5436eecf4e55724d36ee13",
+      "SuiteId": "6a5436eecf4e55724d36ee14",
+      "BundlePath": "Tops/USEC_Winter_MT.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Winter_MT.bundle",
+      "HandsId": "6a5436eecf4e55724d36ee15",
+      "HandsBaseID": "675ff2a7e3ee8ffb7e042465",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_pcu_ucon": {
+      "name": "top_usec_pcu_ucon",
+      "displayName": "USEC PCU Ironsight (ATACS U|CON)",
+      "id": "6a54679bbafbcd16f4d88e80",
+      "SuiteId": "6a54679bbafbcd16f4d88e81",
+      "BundlePath": "Tops/USEC_PCU_UCON.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_PCU_UCON.bundle",
+      "HandsId": "6a54679bbafbcd16f4d88e82",
+      "HandsBaseID": "5d1f5b5386f7744bcc048757",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_pcu_mt": {
+      "name": "top_usec_pcu_mt",
+      "displayName": "USEC PCU Ironsight (Multitarn)",
+      "id": "6a54679bbafbcd16f4d88e83",
+      "SuiteId": "6a54679bbafbcd16f4d88e84",
+      "BundlePath": "Tops/USEC_PCU_MT.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_PCU_MT.bundle",
+      "HandsId": "6a54679bbafbcd16f4d88e85",
+      "HandsBaseID": "5d1f5b5386f7744bcc048757",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "top_usec_aggressor_black": {
+      "name": "top_usec_aggressor_black",
+      "displayName": "USEC Aggressor TAC (Black)",
+      "id": "6a54773ab6a49e58d996be60",
+      "SuiteId": "6a54773ab6a49e58d996be61",
+      "BundlePath": "Tops/USEC_Aggressor_Black.bundle",
+      "HandsBundlePath": "Hands/Hands_USEC_Aggressor_Black.bundle",
+      "HandsId": "6a54773ab6a49e58d996be62",
+      "HandsBaseID": "5d1f5b0686f7743f8362bcde",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    }
+    
+ },
+ "Bottoms": {
+    "pants_bear_instructor_emr": {
+      "name": "pants_bear_instructor_emr",
+      "displayName": "BEAR Instructor (EMR)",
+      "id": "6a32ed5e678c14e27f20e6c2",
+      "SuiteId": "6a32ed5e678c14e27f20e6c3",
+      "BundlePath": "Bottoms/BEAR_Instructor_EMR.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_instructor_fg": {
+      "name": "pants_bear_instructor_fg",
+      "displayName": "BEAR Instructor (ATACS FG)",
+      "id": "6a3462c27a93d60e699d32d1",
+      "SuiteId": "6a3462c27a93d60e699d32d2",
+      "BundlePath": "Bottoms/BEAR_Instructor_FG.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_instructor_ss": {
+      "name": "pants_bear_instructor_ss",
+      "displayName": "BEAR Instructor (SURPAT Savanna)",
+      "id": "6a346305189e4800e371fc41",
+      "SuiteId": "6a346305189e4800e371fc42",
+      "BundlePath": "Bottoms/BEAR_Instructor_SS.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_instructor_s3d": {
+      "name": "pants_bear_instructor_s3d",
+      "displayName": "BEAR Instructor (SURPAT 3D)",
+      "id": "6a346b1ee49fc1ace6e18fe1",
+      "SuiteId": "6a346b1ee49fc1ace6e18fe2",
+      "BundlePath": "Bottoms/BEAR_Instructor_S3D.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_instructor_mc": {
+      "name": "pants_bear_instructor_mc",
+      "displayName": "BEAR Instructor (MultiCam)",
+      "id": "6a346b1ee49fc1ace6e18fe3",
+      "SuiteId": "6a346b1ee49fc1ace6e18fe4",
+      "BundlePath": "Bottoms/BEAR_Instructor_MC.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_gladiator_s3d": {
+      "name": "pants_bear_gladiator_s3d",
+      "displayName": "BEAR Gladiator (SURPAT 3D)",
+      "id": "6a348f9403f3c085d98e9970",
+      "SuiteId": "6a348f9403f3c085d98e9971",
+      "BundlePath": "Bottoms/BEAR_Gladiator_S3D.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_gladiator_ss": {
+      "name": "pants_bear_gladiator_ss",
+      "displayName": "BEAR Gladiator (SURPAT Savanna)",
+      "id": "6a348f9403f3c085d98e9972",
+      "SuiteId": "6a348f9403f3c085d98e9973",
+      "BundlePath": "Bottoms/BEAR_Gladiator_SS.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_gladiator_fg": {
+      "name": "pants_bear_gladiator_fg",
+      "displayName": "BEAR Gladiator (A-TACS FG)",
+      "id": "6a348f9403f3c085d98e9974",
+      "SuiteId": "6a348f9403f3c085d98e9975",
+      "BundlePath": "Bottoms/BEAR_Gladiator_FG.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_slavianka_fgix": {
+      "name": "pants_bear_slavianka_fgix",
+      "displayName": "BEAR Slavianka (ATACS IX)",
+      "id": "6a356c5683029ea3a883a6c0",
+      "SuiteId": "6a356c5683029ea3a883a6c1",
+      "BundlePath": "Bottoms/BEAR_Slavianka_IX.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_slavianka_mc": {
+      "name": "pants_bear_slavianka_mc",
+      "displayName": "BEAR Slavianka (MultiCam)",
+      "id": "6a356c5683029ea3a883a6c2",
+      "SuiteId": "6a356c5683029ea3a883a6c3",
+      "BundlePath": "Bottoms/BEAR_Slavianka_MC.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_bear_slavianka_emr": {
+      "name": "pants_bear_slavianka_emr",
+      "displayName": "BEAR Slavianka (EMR)",
+      "id": "6a356c5683029ea3a883a6c4",
+      "SuiteId": "6a356c5683029ea3a883a6c5",
+      "BundlePath": "Bottoms/BEAR_Slavianka_EMR.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Bear"
+      ]
+    },
+    "pants_usec_special_ops_mt": {
+      "name": "pants_usec_special_ops_mt",
+      "displayName": "USEC Special Ops (Multitarn)",
+      "id": "6a46ae3ad2d2e822619199d5",
+      "SuiteId": "6a46ae3ad2d2e822619199d6",
+      "BundlePath": "Bottoms/Usec_SpecOps_MT.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_special_ops_mc": {
+      "name": "pants_usec_special_ops_mc",
+      "displayName": "USEC Special Ops (MultiCam)",
+      "id": "6a46ae3ad2d2e822619199d7",
+      "SuiteId": "6a46ae3ad2d2e822619199d8",
+      "BundlePath": "Bottoms/Usec_SpecOps_MC.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_special_ops_bl": {
+      "name": "pants_usec_special_ops_bl",
+      "displayName": "USEC Special Ops (Badlands)",
+      "id": "6a46ae3ad2d2e82261919790",
+      "SuiteId": "6a46ae3ad2d2e82261919791",
+      "BundlePath": "Bottoms/Usec_SpecOps_BL.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_birdeye_ucon": {
+      "name": "pants_usec_birdeye_ucon",
+      "displayName": "USEC Combat Pants (ATACS U|CON)",
+      "id": "6a46ae3ad2d2e822619198c0",
+      "SuiteId": "6a46ae3ad2d2e822619198c1",
+      "BundlePath": "Bottoms/Usec_Birdeye_UCON.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_birdeye_mm14": {
+      "name": "pants_usec_birdeye_mm14",
+      "displayName": "USEC Combat Pants (MM14)",
+      "id": "6a46ae3ad2d2e822619198c2",
+      "SuiteId": "6a46ae3ad2d2e822619198c3",
+      "BundlePath": "Bottoms/Usec_Birdeye_MM14.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_birdeye_mt": {
+      "name": "pants_usec_birdeye_mt",
+      "displayName": "USEC Combat Pants (Multitarn)",
+      "id": "6a46ae3ad2d2e822619198c4",
+      "SuiteId": "6a46ae3ad2d2e822619198c5",
+      "BundlePath": "Bottoms/Usec_Birdeye_MT.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_winter_ucon": {
+      "name": "pants_usec_winter_ucon",
+      "displayName": "USEC Winter (ATACS U|CON)",
+      "id": "6a46ae3ad2d2e82261919190",
+      "SuiteId": "6a46ae3ad2d2e82261919191",
+      "BundlePath": "Bottoms/Usec_Winter_UCON.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_winter_bl": {
+      "name": "pants_usec_winter_bl",
+      "displayName": "USEC Winter (Badlands)",
+      "id": "6a46ae3ad2d2e82261917420",
+      "SuiteId": "6a46ae3ad2d2e82261917421",
+      "BundlePath": "Bottoms/Usec_Winter_BL.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_raider_bl": {
+      "name": "pants_usec_raider_bl",
+      "displayName": "USEC Legionnaire (Badlands)",
+      "id": "6a51be06c0b6834a96b7a140",
+      "SuiteId": "6a51be06c0b6834a96b7a141",
+      "BundlePath": "Bottoms/Usec_Legionnaire_BL.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_raider_mm14": {
+      "name": "pants_usec_raider_mm14",
+      "displayName": "USEC Legionnaire (MM14)",
+      "id": "6a51be06c0b6834a96b7a142",
+      "SuiteId": "6a51be06c0b6834a96b7a143",
+      "BundlePath": "Bottoms/Usec_Legionnaire_MM14.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_g4_ucon": {
+      "name": "pants_usec_g4_ucon",
+      "displayName": "USEC Gen 4 (ATACS U|CON)",
+      "id": "6a525930b2ffb7c1124234b0",
+      "SuiteId": "6a525930b2ffb7c1124234b1",
+      "BundlePath": "Bottoms/Usec_G4_UCON.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    },
+    "pants_usec_g4_mm14": {
+      "name": "pants_usec_g4_mm14",
+      "displayName": "USEC Gen 4 (MM14)",
+      "id": "6a525930b2ffb7c1124234b2",
+      "SuiteId": "6a525930b2ffb7c1124234b3",
+      "BundlePath": "Bottoms/Usec_G4_MM14.bundle",
+      "LoyaltyLevel": 0,
+      "ProfileLevel": 1,
+      "Standing": 0,
+      "Price": 0,
+      "enabled": true,
+      "Side": [
+        "Usec"
+      ]
+    }
+ },
+ "Gear":{
+      "item_equipment_rig_forts_emr": {
+      "BaseItemID": "544a5caa4bdc2d1a388b4568",
+      "BundlePath": "Chestrigs/FORT_S_EMR.bundle",
+      "id": "6a3979c3c71490770db70c90",
+      "name": "item_equipment_rig_forts_emr",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_rig_forts_fg": {
+      "BaseItemID": "544a5caa4bdc2d1a388b4568",
+      "BundlePath": "Chestrigs/FORT_S_FG.bundle",
+      "id": "6a3caad8c4c0b6b5f8956470",
+      "name": "item_equipment_rig_forts_fg",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_head_tagillacap_emr": {
+      "BaseItemID": "60a7acf20c5cb24b01346648",
+      "BundlePath": "Headwear/BW_CapEMR.bundle",
+      "id": "678aff3e3acce9ab224d2734",
+      "name": "item_equipment_head_tagillacap_emr",
+
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_head_tagillacap_fg": {
+      "BaseItemID": "60a7acf20c5cb24b01346648",
+      "BundlePath": "Headwear/BW_CapFG.bundle",
+      "id": "678aff3e3acce9ab224d2735",
+      "name": "item_equipment_head_tagillacap_fg",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_head_bear_mc": {
+      "BaseItemID": "5b40e5e25acfc4001a599bea",
+      "BundlePath": "Headwear/FW_CapMC.bundle",
+      "id": "678aff3e3acce9ab224d2736",
+      "name": "item_equipment_head_bear_mc",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_head_bear_fgix": {
+      "BaseItemID": "5b40e5e25acfc4001a599bea",
+      "BundlePath": "Headwear/FW_CapFGIX.bundle",
+      "id": "678aff3e3acce9ab224d2737",
+      "name": "item_equipment_head_bear_fgix",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_rig_stich_profi_s3d": {
+      "BaseItemID": "66b6296d7994640992013b17",
+      "BundlePath": "Chestrigs/S3D_StichProfi.bundle",
+      "id": "6a3e95cc3a4c68f3fbf76740",
+      "name": "item_equipment_rig_stich_profi_s3d",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_rig_stich_profi_ss": {
+      "BaseItemID": "66b6296d7994640992013b17",
+      "BundlePath": "Chestrigs/SS_StichProfi.bundle",
+      "id": "6a3e95f5e219cc696dcf7220",
+      "name": "item_equipment_rig_stich_profi_ss",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_armor_arscpc_mc": {
+      "BaseItemID": "5e4ac41886f77406a511c9a8",
+      "BundlePath": "Chestrigs/ARSCPC_MC.bundle",
+      "id": "678efc5eaadf3c634812f120",
+      "name": "item_equipment_armor_arscpc_mc",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_armor_arscpc_fgix": {
+      "BaseItemID": "5e4ac41886f77406a511c9a8",
+      "BundlePath": "Chestrigs/ARSCPC_FGIX.bundle",
+      "id": "6a440af56f16ec30d5b67600",
+      "name": "item_equipment_armor_arscpc_fgix",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_rig_tv110_emr": {
+      "BaseItemID": "5c0e746986f7741453628fe5",
+      "BundlePath": "Chestrigs/EMR_tv110.bundle",
+      "id": "6a6a4b348672750ec86c03d0",
+      "name": "item_equipment_rig_tv110_emr",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_rig_tv110_fg": {
+      "BaseItemID": "5c0e746986f7741453628fe5",
+      "BundlePath": "Chestrigs/FG_tv110.bundle",
+      "id": "6a6a4b348672750ec86c03e0",
+      "name": "item_equipment_rig_tv110_fg",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_rig_tv110_mc": {
+      "BaseItemID": "5c0e746986f7741453628fe5",
+      "BundlePath": "Chestrigs/MC_tv110.bundle",
+      "id": "6a6a4b348672750ec86c03f0",
+      "name": "item_equipment_rig_tv110_mc",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+
+
+
+    "item_equipment_backpack_MC_2day": {
+      "BaseItemID": "66b5f22b78bbc0200425f904",
+      "BundlePath": "Backpacks/MC_2Day.bundle",
+      "id": "6a42c2eea2e4ce09ec3a1460",
+      "name": "item_equipment_backpack_MC_2day",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear, usec"
+    },
+    "item_equipment_backpack_EMR_2day": {
+      "BaseItemID": "66b5f22b78bbc0200425f904",
+      "BundlePath": "Backpacks/EMR_2Day.bundle",
+      "id": "6a42c2eea2e4ce09ec3a1461",
+      "name": "item_equipment_backpack_EMR_2day",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_backpack_wartech_s3d": {
+      "BaseItemID": "618cfae774bb2d036a049e7c",
+      "BundlePath": "Backpacks/S3D_Berkut.bundle",
+      "id": "6a68ef582df75ca524d5b789",
+      "name": "item_equipment_backpack_wartech_s3d",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_backpack_wartech_ss": {
+      "BaseItemID": "618cfae774bb2d036a049e7c",
+      "BundlePath": "Backpacks/SS_Berkut.bundle",
+      "id": "6a68ef582df75ca524d5b790",
+      "name": "item_equipment_backpack_wartech_ss",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_backpack_wartech_ix": {
+      "BaseItemID": "618cfae774bb2d036a049e7c",
+      "BundlePath": "Backpacks/IX_Berkut.bundle",
+      "id": "6a68ef582df75ca524d5b791",
+      "name": "item_equipment_backpack_wartech_ix",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_backpack_baselardwild_emr": {
+      "BaseItemID": "618cfae774bb2d036a049e7c",
+      "BundlePath": "Backpacks/EMR_ScavBackpack.bundle",
+      "id": "6a68ef582df75ca524d5b792",
+      "name": "item_equipment_backpack_baselardwild_emr",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_backpack_baselardwild_fg": {
+      "BaseItemID": "618cfae774bb2d036a049e7c",
+      "BundlePath": "Backpacks/FG_ScavBackpack.bundle",
+      "id": "6a68ef582df75ca524d5b793",
+      "name": "item_equipment_backpack_baselardwild_fg",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_backpack_baselardwild_mc": {
+      "BaseItemID": "618cfae774bb2d036a049e7c",
+      "BundlePath": "Backpacks/MC_ScavBackpack.bundle",
+      "id": "6a68ef582df75ca524d5b794",
+      "name": "item_equipment_backpack_baselardwild_mc",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+
+
+
+
+    "item_equipment_helmet_LSHZ_snake": {
+      "BaseItemID": "5b432d215acfc4771e1c6624",
+      "BundlePath": "Headwear/LShz_SnakeSpray.bundle",
+      "id": "6a43f548f15c2274788f1520",
+      "name": "item_equipment_helmet_LSHZ_snake",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_helmet_LSHZ_mc": {
+      "BaseItemID": "5b432d215acfc4771e1c6624",
+      "BundlePath": "Headwear/LShz_MC.bundle",
+      "id": "6a43f548f15c2274788f1530",
+      "name": "item_equipment_helmet_LSHZ_mc",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_helmet_tw_exfil_emr": {
+      "BaseItemID": "5e00c1ad86f774747333222c",
+      "BundlePath": "Headwear/TW_Exfil_EMR.bundle",
+      "id": "6a65176b4da0a3a112770c70",
+      "name": "item_equipment_helmet_tw_exfil_emr",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_helmet_tw_exfil_fg": {
+      "BaseItemID": "5e00c1ad86f774747333222c",
+      "BundlePath": "Headwear/TW_Exfil_FG.bundle",
+      "id": "6a68d226aff56940784cfa40",
+      "name": "item_equipment_helmet_tw_exfil_fg",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_helmet_tor_2_fg": {
+      "BaseItemID": "65719f0775149d62ce0a670b",
+      "BundlePath": "Headwear/Tor_2_FG.bundle",
+      "id": "6a7010c2170fc3b1c43526b0",
+      "name": "item_equipment_helmet_tor_2_fg",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    },
+    "item_equipment_helmet_tor_2_mc": {
+      "BaseItemID": "65719f0775149d62ce0a670b",
+      "BundlePath": "Headwear/Tor_2_MC.bundle",
+      "id": "6a70166ed478487cee4c0ee0",
+      "name": "item_equipment_helmet_tor_2_mc",
+      "enabled": true,
+      "weight": 0.167,
+      "side": "Bear"
+    }
+
+
+
+
+
+  }
+  
+
+}
