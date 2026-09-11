@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/AshleySchaeffer/AshleySchaeffer.csproj" />
+  <Project Path="tests/AshleySchaeffer.Tests/AshleySchaeffer.Tests.csproj" />
+</Solution>
