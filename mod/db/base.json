@@ -2,6 +2,20 @@
   "_id": "66eeef8b2a166b73dc0671e8",
   "working": true,
   "availableInRaid": false,
+  "isAvailableInPVE": true,
+  "isCanTransferItems": false,
+  "isCanTransferItemsFromPve": false,
+  "transferableItems": {
+    "category": [],
+    "id_list": []
+  },
+  "prohibitedTransferableItems": {
+    "category": [],
+    "id_list": []
+  },
+  "sell_modifier_for_prohibited_items": 0,
+  "medic": false,
+  "mainDialogue": null,
   "items_buy": {
     "category": [
       "543be5f84bdc2dd4348b456a",

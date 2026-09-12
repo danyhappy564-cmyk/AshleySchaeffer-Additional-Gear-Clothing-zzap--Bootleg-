@@ -393,7 +393,49 @@ public class LoaderTests
 
         // base.json says /files/trader/avatar/avatar.jpg; the route drops the extension.
         Assert.Equal("/files/trader/avatar/avatar", ModPayload.TraderBase.Avatar!.Replace(".jpg", ""));
-        Assert.Empty(h.Warnings);
+    }
+
+    [Fact]
+    public async Task Falls_back_to_a_portrait_that_resolves_when_the_mod_ships_no_image()
+    {
+        // The public repo this port was restored from never carried res/AshleySchaeffer.jpg, so the
+        // route the 4.0 build registered pointed at nothing. Rather than serve a 404, point the
+        // trader at vanilla's placeholder and warn.
+        var modFolder = IOPath.GetDirectoryName(typeof(AshleySchaefferLoader).Assembly.Location)!;
+        var shipped = File.Exists(IOPath.Combine(modFolder, "res/AshleySchaeffer.jpg"));
+
+        var h = LoaderHarness.Create();
+        await h.RunAsync();
+
+        var avatar = h.Db.Traders[h.AshleyId].Base!.Avatar;
+
+        if (shipped)
+        {
+            Assert.Equal("/files/trader/avatar/avatar.jpg", avatar);
+            Assert.DoesNotContain(h.Warnings, w => w.Contains("Portrait not found"));
+        }
+        else
+        {
+            Assert.Equal("/files/trader/avatar/unknown.png", avatar);
+            Assert.Contains(h.Warnings, w => w.Contains("Portrait not found"));
+        }
+    }
+
+    [Fact]
+    public async Task Registered_trader_is_visible_in_PVE()
+    {
+        // SPT hard-codes the session to "pve" (GameController.GetGameMode), and every one of the 12
+        // vanilla traders carries isAvailableInPVE: true. TraderBase.IsAvailableInPVE is a
+        // non-nullable bool, so a base.json that omits the key ships "isAvailableInPVE": false to
+        // the client, which then hides the trader - no server-side error anywhere. This is what
+        // made the trader invisible in game.
+        var h = LoaderHarness.Create();
+        await h.RunAsync();
+
+        var registered = h.Db.Traders[h.AshleyId].Base!;
+
+        Assert.True(registered.IsAvailableInPVE);
+        Assert.True(ModPayload.TraderBase.IsAvailableInPVE);
     }
 
     [Fact]

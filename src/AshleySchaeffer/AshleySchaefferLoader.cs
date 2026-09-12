@@ -115,8 +115,7 @@ public class AshleySchaefferLoader(
         if (config.traderEnabled)
         {
             var traderId = traderBase.Id;
-            var avatarPath = IOPath.Combine(modFolder, "res/AshleySchaeffer.jpg");
-            imageRouter.AddRoute(traderBase.Avatar!.Replace(".jpg", ""), avatarPath);
+            RegisterAvatar(modFolder);
             SetTraderUpdateTime(traderConfig, traderBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
             ragfairConfig.Traders.TryAdd(traderId, true);
             AddTraderWithEmptyAssortToDb(traderBase);
@@ -124,6 +123,7 @@ public class AshleySchaefferLoader(
                 traderBase,
                 "Ashley Schaeffer",
                 "Son, if you die wearing my merchandise, that's a skill issue. The outfit did its job.");
+            logger.Info($"[Ashley Schaeffer] Trader {traderBase.Nickname} ({traderId}) registered.");
         }
 
         var suits = new List<Suit>();
@@ -242,6 +242,37 @@ public class AshleySchaefferLoader(
 
         wardrobe["Bear"][slot].Add(id);
         wardrobe["Usec"][slot].Add(id);
+    }
+
+    /// <summary>Vanilla's placeholder portrait, served from SPT_Data/images/trader/avatar.</summary>
+    private const string FallbackAvatarRoute = "/files/trader/avatar/unknown";
+
+    /// <summary>
+    /// Points the trader's portrait at the mod's own image, or at vanilla's placeholder when that
+    /// image is missing.
+    /// </summary>
+    /// <remarks>
+    /// The public repository this port was restored from never contained the mod's asset payload -
+    /// no res/AshleySchaeffer.jpg and none of the 110 bundles declared in bundles.json. The 4.0
+    /// build registered the route unconditionally, so without the file the client asked for a
+    /// portrait the server could not serve. Registering a dead route is worse than admitting the
+    /// image is absent, so fall back to a portrait that definitely resolves and say so in the log.
+    /// </remarks>
+    private void RegisterAvatar(string modFolder)
+    {
+        var avatarPath = IOPath.Combine(modFolder, "res/AshleySchaeffer.jpg");
+        var routeKey = traderBase.Avatar!.Replace(".jpg", "");
+
+        if (File.Exists(avatarPath))
+        {
+            imageRouter.AddRoute(routeKey, avatarPath);
+            return;
+        }
+
+        logger.Warning(
+            $"[Ashley Schaeffer] Portrait not found at {avatarPath}; falling back to vanilla's placeholder. "
+            + "Drop the original release's res/ folder next to the dll to restore it.");
+        traderBase.Avatar = FallbackAvatarRoute + ".png";
     }
 
     public void SetTraderUpdateTime(

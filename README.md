@@ -163,6 +163,51 @@ suit.ExtensionData["tid"] = sellerId;
 
 ---
 
+## 상인이 안 보이던 문제 (4.1.1에서 수정)
+
+**증상:** 모드는 정상 로드되고 서버 로그에 에러도 없는데, 게임 안에서 상인 목록에
+Ashley Schaeffer가 아예 안 나옵니다.
+
+**원인:** `db/base.json` 에 **`isAvailableInPVE` 키가 없었습니다.**
+
+SPT는 세션을 무조건 PVE로 고정합니다 (`GameController.GetGameMode()` 가 `"pve"` 를
+하드코딩). 그리고 `TraderBase.IsAvailableInPVE` 는 **nullable이 아닌 `bool`** 이라,
+JSON에 키가 없으면 `false` 가 되고 그대로 클라이언트에 내려갑니다. 클라이언트는
+PVE 모드에서 이 플래그가 `false` 인 상인을 목록에서 제외합니다.
+
+서버는 이 필드를 **한 번도 읽지 않기 때문에** 경고도 에러도 안 납니다. 상인은
+`TradersTable` 에 정상 등록되고, 어사트도 로케일도 다 들어가 있는데 화면에만 안
+나오는 상태가 됩니다.
+
+SPT 4.1.5 기본 데이터베이스의 상인 12명(프라포르·테라피스트·펜스·스키어·피스키퍼·
+메카닉·라그만·예거·caretaker·БТР·Arena·Storyteller)을 전부 대조한 결과 **예외 없이
+`isAvailableInPVE: true`** 였습니다.
+
+**수정:** 기본 상인들이 갖고 있는데 `base.json` 에 빠져 있던 필드를 전부 채웠습니다.
+
+| 필드 | 값 | 비고 |
+|---|---|---|
+| `isAvailableInPVE` | `true` | **이게 상인을 숨기고 있던 범인입니다** |
+| `isCanTransferItems` | `false` | PVE→PVP 이관용. SPT에선 의미 없음 |
+| `isCanTransferItemsFromPve` | `false` | 위와 동일 |
+| `transferableItems` | `{category:[], id_list:[]}` | 기본 상인과 동일한 빈 형태 |
+| `prohibitedTransferableItems` | `{category:[], id_list:[]}` | 위와 동일 |
+| `sell_modifier_for_prohibited_items` | `0` | 기본 상인 값 |
+| `medic` | `false` | 기본 상인 값 |
+| `mainDialogue` | `null` | 기본 상인 값 |
+
+> **4.0 포팅 회귀는 아닙니다.** `isAvailableInPVE` 는 SPT 4.0.0 시점의
+> `TraderBase` 에도 이미 **nullable이 아닌 `bool`** 로 있었고, 4.0도 세션을 `"pve"`
+> 로 고정합니다. 즉 원작 4.0 배포본도 같은 상태였을 가능성이 높습니다. 제가 포팅하면서
+> 깨뜨린 게 아니라, 원작 `base.json` 이 원래 이 키를 안 갖고 있었던 겁니다.
+
+**초상화 처리도 같이 바꿨습니다.** 예전에는 `res/AshleySchaeffer.jpg` 가 없어도
+그 경로로 이미지 라우트를 무조건 등록해서, 클라이언트가 없는 파일을 요청하게
+됐습니다. 이제는 파일이 있을 때만 등록하고, 없으면 경고를 찍은 뒤 바닐라 기본
+초상화(`/files/trader/avatar/unknown.png`)로 대체합니다.
+
+---
+
 ## 남아있는 원작 버그 (안 고쳤습니다)
 
 고치면 게임이 눈에 띄게 달라지는 것들이라 **원작 그대로 뒀습니다.** 원하시면 말씀하세요, 고쳐드립니다.
@@ -245,7 +290,9 @@ dotnet build AshleySchaeffer.slnx -c Release -p:SptRoot="D:\내SPT경로"
 
 2. **`res/AshleySchaeffer.jpg`** — 상인 초상화. `base.json` 이
    `/files/trader/avatar/avatar.jpg` 를 가리키고 코드가 `res/AshleySchaeffer.jpg` 를
-   등록합니다. 없으면 상인 아이콘이 비어 보입니다.
+   등록합니다. **없어도 상인은 정상적으로 나옵니다** — 4.1.1부터는 파일이 없으면
+   바닐라 기본 초상화로 대체하고 서버 로그에 경고를 남깁니다. 원본 초상화를 쓰고
+   싶으면 이 파일만 넣으면 됩니다.
 
 둘 다 원작 배포본의 같은 경로에 넣으면 됩니다 (`mod/res/AshleySchaeffer.jpg`,
 `mod/bundles/...`). `mod/` 안에 넣으면 빌드가 알아서 같이 복사합니다.
