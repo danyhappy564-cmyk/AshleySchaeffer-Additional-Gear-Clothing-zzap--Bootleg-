@@ -208,6 +208,106 @@ SPT 4.1.5 기본 데이터베이스의 상인 12명(프라포르·테라피스�
 
 ---
 
+## 원작자의 4.1 저장소와 대조했습니다 (4.1.3)
+
+작업 중에 원작자 쪽 4.1 대응 저장소를 확인했습니다.
+
+**https://github.com/AshleySchaefferBMW/Ashley-Schaeffer-BMW-Gear-Clothing-Update-to-4.1.-**
+(커밋 1건, `turbodestroyer1337`, 2026-08-21, Unlicense)
+
+여기에는 **실제 C# 소스**가 들어 있어서, 디컴파일로 복원한 이 포팅이 맞았는지
+대조할 수 있었습니다.
+
+### 대조 결과 — 복원은 정확했습니다
+
+| 항목 | 결과 |
+|---|---|
+| `db/assort.json`, `items/*.json`, `locales/en.json` | **완전 동일** |
+| `config.json` | **완전 동일** |
+| `db/base.json` | 우리가 추가한 8개 필드 외 **동일** |
+| `[Injectable(TypePriority = OnLoadOrder.Preload + 1)]` | **완전 동일** (독립적으로 같은 결론) |
+| 메서드 구성 (`UpdateFilters` 포함) | **동일** |
+
+### 이 포팅이 원작자 저장소보다 나은 점 2가지
+
+| 문제 | 원작자 4.1 저장소 | 이 포팅 |
+|---|---|---|
+| `isAvailableInPVE` 누락 → **상인이 안 보임** | ❌ 여전히 없음 | ✅ 수정 |
+| 상의의 `tid` 가 `ExtensionData` 로 들어가 중복 키 발생 | ❌ 여전히 `ExtensionData["tid"]` | ✅ `Suit.Tid` 사용 |
+
+`QuestAssort` 소문자 키는 양쪽 다 고쳤습니다 (독립적으로 같은 수정).
+
+### 가져온 것 — 상인 초상화
+
+원작자 저장소의 `res/ashleyschaeffer.jpg` 를 `mod/res/AshleySchaeffer.jpg` 로
+가져왔습니다. 이제 이 저장소만으로 초상화가 정상 표시됩니다.
+
+> 참고: 파일 이름은 `.jpg` 인데 실제 내용은 PNG 입니다. 바닐라 SPT 도 동일합니다
+> (프라포르 `base.json` 은 `.jpg` 를 가리키는데 디스크의 파일은 `.png`).
+> `ImageRouter` 가 확장자를 떼고 라우트 키를 만들기 때문에 문제가 되지 않습니다.
+
+**아직 없는 것:** `bundles.json` 이 선언한 **번들 110개**. 원작자 4.1 저장소에도
+없습니다. 없으면 아이템은 등록되지만 모델이 안 보입니다.
+
+---
+
+## 서버가 통째로 죽던 문제 (4.1.3에서 수정)
+
+**증상:** 이 모드는 **정상 로드됩니다.** 로그에 이렇게 찍힙니다.
+
+```
+모드 Ashley Schaeffer Additional Gear and Clothing 버전 4.1.2 ... 불러옴
+[Ashley Schaeffer] Trader Ashley Schaeffer (66eeef8b...) registered.
+[Ashley Schaeffer] Clothing items added: 52
+[Ashley Schaeffer] Gear items added: 27
+```
+
+그런데 **한참 뒤에** 서버가 죽습니다.
+
+```
+The given key 'started' was not present in the dictionary.
+   at PostDbLoadService.ValidateQuestAssortUnlocksExist()
+   at GameController.Load()
+   at GameCallbacks.OnLoadAsync(...)
+```
+
+**원인:** 상인의 `QuestAssort` 키 대소문자.
+
+4.0 원본은 `"Started"` / `"Success"` / `"Fail"` (대문자)를 썼고, 포팅하면서 그대로
+가져왔습니다. 4.0에는 이걸 읽는 코드가 없어서 아무 문제가 없었습니다.
+
+**4.1이 `ValidateQuestAssortUnlocksExist()` 를 새로 추가했습니다.**
+
+```csharp
+// Libraries/SPTushonka.Server.Core/Services/Server/PostDbLoadService.cs
+foreach (var (traderId, traderData) in traderTable)   // ← 등록된 모든 상인을 순회
+{
+    ...
+    mergedQuestAssorts = mergedQuestAssorts
+        .Concat(traderData.QuestAssort["started"])   // ← 소문자, 인덱서
+        .Concat(traderData.QuestAssort["success"])
+        .Concat(traderData.QuestAssort["fail"])
+```
+
+`TryGetValue` 가 아니라 **인덱서**라서 키가 없으면 그 자리에서 예외가 납니다.
+그리고 `Dictionary<string, ...>` 는 **대소문자를 구분**합니다.
+
+SPT 4.1.5 기본 상인 11명의 `questassort.json` 을 전부 확인한 결과 **예외 없이
+소문자**(`started` / `success` / `fail`)였습니다.
+
+**이 버그가 고약한 이유:**
+
+- 모드는 "성공"을 로그에 남기고 끝납니다. 범인처럼 안 보입니다
+- 예외는 `GameCallbacks` 단계, 즉 **한참 뒤에** 터집니다
+- 자기 모드만 죽는 게 아니라 **서버 프로세스 전체가 내려갑니다**
+
+**수정:** 키를 소문자로 변경.
+
+되돌아가지 않도록 테스트로 고정했습니다. 일부러 대문자로 되돌려 테스트가 실제로
+실패하는 것까지 확인했습니다.
+
+---
+
 ## 모드 전체가 비활성화되던 문제 (4.1.2에서 수정)
 
 **증상:** 서버 시작 시 아래가 뜨고 **설치된 모드 전부가 꺼집니다.**
@@ -345,7 +445,7 @@ dotnet build AshleySchaeffer.slnx -c Release -p:SptRoot="D:\내SPT경로"
 
 기존 `config.json` 은 덮어쓰지 않습니다.
 
-### ⚠️ 이 저장소에 없는 파일 2가지
+### ⚠️ 이 저장소에 없는 파일
 
 이건 제가 만들 수 없습니다. **원작 배포본에서 가져오셔야 합니다.**
 
@@ -353,11 +453,9 @@ dotnet build AshleySchaeffer.slnx -c Release -p:SptRoot="D:\내SPT경로"
    저장소에 없습니다 (용량 때문에 GitHub에 안 올린 것으로 보입니다).
    없으면 아이템은 등록되지만 **모델이 안 보입니다.**
 
-2. **`res/AshleySchaeffer.jpg`** — 상인 초상화. `base.json` 이
-   `/files/trader/avatar/avatar.jpg` 를 가리키고 코드가 `res/AshleySchaeffer.jpg` 를
-   등록합니다. **없어도 상인은 정상적으로 나옵니다** — 4.1.1부터는 파일이 없으면
-   바닐라 기본 초상화로 대체하고 서버 로그에 경고를 남깁니다. 원본 초상화를 쓰고
-   싶으면 이 파일만 넣으면 됩니다.
+2. ~~`res/AshleySchaeffer.jpg`~~ — **4.1.3에서 해결됐습니다.**
+   원작자의 4.1 저장소에서 가져와 `mod/res/` 에 포함했습니다. 더 이상 따로
+   구하실 필요가 없습니다.
 
 둘 다 원작 배포본의 같은 경로에 넣으면 됩니다 (`mod/res/AshleySchaeffer.jpg`,
 `mod/bundles/...`). `mod/` 안에 넣으면 빌드가 알아서 같이 복사합니다.

@@ -428,6 +428,31 @@ public class LoaderTests
     private const string SptModGuidPattern = @"^[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*$";
 
     [Fact]
+    public async Task Quest_assort_uses_the_lower_case_keys_the_server_indexes_by()
+    {
+        // 4.1's PostDbLoadService.ValidateQuestAssortUnlocksExist walks every trader in the table
+        // and reads QuestAssort["started"] / ["success"] / ["fail"] through the indexer, not
+        // TryGetValue. Dictionary<string, ...> is case-sensitive, so the 4.0 build's
+        // "Started"/"Success"/"Fail" throws KeyNotFoundException - during GameCallbacks, long
+        // after this mod has already logged success, killing the whole server.
+        var h = LoaderHarness.Create();
+        await h.RunAsync();
+
+        var questAssort = h.Db.Traders[h.AshleyId].QuestAssort;
+
+        Assert.NotNull(questAssort);
+        foreach (var key in new[] { "started", "success", "fail" })
+        {
+            Assert.True(questAssort!.ContainsKey(key), $"QuestAssort is missing \"{key}\"");
+        }
+
+        // The server indexes these directly; make sure that cannot throw.
+        _ = questAssort!["started"];
+        _ = questAssort["success"];
+        _ = questAssort["fail"];
+    }
+
+    [Fact]
     public void Mod_guid_passes_the_validator_that_can_disable_every_mod()
     {
         // The 4.0 guid carried spaces and 4.1 rejects it. This is not a per-mod failure: the

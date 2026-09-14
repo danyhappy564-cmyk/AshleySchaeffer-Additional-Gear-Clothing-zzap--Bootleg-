@@ -299,11 +299,18 @@ public class AshleySchaefferLoader(
                 LoyalLevelItems = [],
             },
             Base = cloner.Clone(traderDetailsToAdd)!,
+            // Lower case, and not the "Started"/"Success"/"Fail" the 4.0 build used. 4.1 added
+            // PostDbLoadService.ValidateQuestAssortUnlocksExist, which walks every trader in the
+            // table and reads QuestAssort["started"] / ["success"] / ["fail"] through the indexer.
+            // A Dictionary<string, ...> compares keys case-sensitively, so the 4.0 casing throws
+            // KeyNotFoundException - and it throws during GameCallbacks, long after this mod has
+            // reported success, taking the whole server down with it. Every vanilla trader's
+            // questassort.json uses lower case.
             QuestAssort = new Dictionary<string, Dictionary<MongoId, MongoId>>
             {
-                ["Started"] = [],
-                ["Success"] = [],
-                ["Fail"] = [],
+                ["started"] = [],
+                ["success"] = [],
+                ["fail"] = [],
             },
             Dialogue = [],
         };

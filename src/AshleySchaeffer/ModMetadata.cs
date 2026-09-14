@@ -33,7 +33,7 @@ public class ModMetadata : IModMetadata
 
     public List<string>? Contributors { get; init; }
 
-    public SemVerVersion Version { get; init; } = new("4.1.2");
+    public SemVerVersion Version { get; init; } = new("4.1.3");
 
     public SemVerRange SptVersion { get; init; } = new("~4.1.0");
 
