@@ -421,6 +421,36 @@ public class LoaderTests
         }
     }
 
+    /// <summary>
+    /// SPT 4.1's ModValidator matches every mod guid against this exact pattern. Copied verbatim
+    /// from SPTushonka.Server/Modding/ModValidator.cs.
+    /// </summary>
+    private const string SptModGuidPattern = @"^[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*$";
+
+    [Fact]
+    public void Mod_guid_passes_the_validator_that_can_disable_every_mod()
+    {
+        // The 4.0 guid carried spaces and 4.1 rejects it. This is not a per-mod failure: the
+        // validator sets errorsFound, logs modloader-no_mods_loaded and returns an empty list,
+        // so one bad guid takes down every other mod on the server too. Pin it.
+        var guid = new ModMetadata().ModGuid;
+
+        Assert.Matches(SptModGuidPattern, guid);
+        Assert.DoesNotContain(' ', guid);
+    }
+
+    [Theory]
+    [InlineData("com.AshleySchaefferBMW.Ashley Schaeffer Additional Gear and Clothing")] // the 4.0 value
+    [InlineData("com.example.has_underscore")]
+    [InlineData("com.example.trailing.")]
+    [InlineData("")]
+    public void The_validator_pattern_rejects_what_it_should(string guid)
+    {
+        // Guards the pattern copy itself: if this ever stops failing, the constant above drifted
+        // from the server's and the test protects nothing.
+        Assert.DoesNotMatch(SptModGuidPattern, guid);
+    }
+
     [Fact]
     public async Task Registered_trader_is_visible_in_PVE()
     {

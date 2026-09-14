@@ -208,6 +208,71 @@ SPT 4.1.5 기본 데이터베이스의 상인 12명(프라포르·테라피스�
 
 ---
 
+## 모드 전체가 비활성화되던 문제 (4.1.2에서 수정)
+
+**증상:** 서버 시작 시 아래가 뜨고 **설치된 모드 전부가 꺼집니다.**
+
+```
+Mod: AshleySchaefferBMW-Ashley Schaeffer Additional Gear and Clothing has an invalid mod guid:
+com.AshleySchaefferBMW.Ashley Schaeffer Additional Gear and Clothing
+모드를 불러오는 중에 오류가 발생하였습니다, 모든 모드가 비활성화되었습니다
+```
+
+**원인:** `ModGuid` 에 **공백**이 들어 있었습니다. 4.0 값을 그대로 승계한 게 문제였습니다.
+
+SPT 4.1의 `ModValidator` 는 모든 모드 GUID를 다음 정규식으로 검사합니다:
+
+```csharp
+// SPTushonka.Server/Modding/ModValidator.cs
+[GeneratedRegex("^[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*$")]
+private static partial Regex ModGuidRegex();
+```
+
+영문·숫자·하이픈만 허용하고 점으로 구분합니다. **공백과 언더스코어는 불가**입니다.
+
+그리고 이건 해당 모드만 죽는 문제가 아닙니다. 검증에 실패하면 `errorsFound = true` 가
+되고, 그 뒤 **빈 목록을 반환**합니다:
+
+```csharp
+if (errorsFound)
+{
+    logger.Error(localisationService.GetText("modloader-no_mods_loaded"));
+    return [];   // ← 설치된 모드 전부가 로드되지 않음
+}
+```
+
+**수정:** `com.AshleySchaefferBMW.AshleySchaefferAdditionalGearAndClothing`
+
+테스트로 고정했습니다 — 서버와 동일한 정규식을 테스트에 복사해 GUID를 검사하고,
+그 정규식 사본이 서버 것과 어긋나지 않았는지도 별도 케이스로 확인합니다.
+
+---
+
+## 같은 이름의 DLL이 두 번 로드될 때
+
+**증상:**
+
+```
+Exception occured while loading a mod at path: ./user/mods/AshleySchaeffer
+Could not load file or assembly 'AshleySchaeffer, Version=4.1.0.0, ...'.
+Assembly with same name is already loaded
+```
+
+**원인:** `ModLoader.LoadMod()` 는 각 모드 폴더 **최상위의 모든 `.dll`** 을 **공유 로드
+컨텍스트**에 올립니다. 따라서 같은 이름의 DLL이 **서로 다른 모드 폴더 두 곳**에 있으면
+두 번째가 실패합니다.
+
+이건 코드 문제가 아니라 **설치 상태 문제**입니다. `user/mods/` 아래에서
+`AshleySchaeffer.dll` 을 검색해 **폴더가 하나만 남도록** 정리하면 됩니다.
+
+> 참고: 이 저장소의 빌드 배포 타겟은 서버가 켜져 있으면 DLL을 덮어쓰지 못하고
+> **경고만 내고 지나갑니다**(`ContinueOnError="WarnAndContinue"`). 그래서 빌드는
+> 성공했는데 배포 폴더에는 옛 버전이 남아 있을 수 있습니다.
+> **서버를 끈 상태에서 빌드**하시거나, `-p:SkipDeploy=true` 로 배포를 건너뛰고
+> 직접 복사하십시오.
+
+---
+
 ## 남아있는 원작 버그 (안 고쳤습니다)
 
 고치면 게임이 눈에 띄게 달라지는 것들이라 **원작 그대로 뒀습니다.** 원하시면 말씀하세요, 고쳐드립니다.
